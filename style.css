@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Graphik LCG Regular', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+.container {
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-box {
+    height: 95px;
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    margin-left: auto;
+}
+
+.logo {
+    margin-right: 51px;
+}
+
+svg path{
+    transition-duration: 1s;
+}
+
+svg {
+    transition-duration: 1s;
+}
+
+.logo:hover svg path {
+    fill: #FF6336;
+    stroke: #2500fa;
+    stroke-width: 0.5px;
+}
+
+.nav-list {
+    display: flex;
+    width: 552px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-link:hover {
+    color: #FF6336;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.button:hover {
+    background-color: #a02807;
+}
+
+.empty {
+    height: 45px;
+    width: 120px;
+    border: 1px solid #808080;
+    margin-right: 10px;
+}
+
+.orange {
+    height: 45px;
+    width: 120px;
+    color: #fff;
+    background-color: #FF6336;
+}
+
+.intro-section {
+    background-color: #fff;
+}
+
+.intro {
+    background-image: url(images/intro-image.png);
+    background-repeat: no-repeat;
+    background-position: 100% 128px;
+    padding: 128px 0 172px 0;
+}
+
+.intro-title {
+    width: 552px;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    margin-bottom: 51px;
+}
+
+.intro-text {
+    width: 471px;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+.intro-orange {
+    width: 160px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.intro-empty {
+    width: 160px;
+    height: 60px;
+}
+
+.intro-buttons {
+    margin-bottom: 25px;
+}
+
+.free-period {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.clients {
+    background-color: #FF9C7D;
+    padding: 108px 0 104px 0;
+}
+
+.section-title {
+    width: 720px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto 70px auto;
+}
+
+.clients-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients-link {
+    height: 53px;
+    display: flex;
+    align-items: center;
+}
+
+.clients-link:hover svg {
+    transform: scale(1.5);
+    transform-origin: 50% 50% 0;
+}
+
+.clients-link:hover svg path {
+    fill: #2500fa;
+}
+
+.advantages {
+    background-color: #fff;
+}
+
+.advanatages-sections {
+    padding: 90px 0 150px 0;
+}
+
+.advantage {
+    display: flex;
+    margin-bottom: 250px;
+}
+
+.advantage:last-child{
+    margin-bottom: 0;
+}
+
+.advantage-description {
+    width: 658px;
+    padding-right: 165px;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.advantage-title {
+    width: 493px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.description-text {
+    margin-bottom: 30px;
+}
+
+.description-text-link {
+    color: #000000;
+}
+
+.description-text-link:hover {
+    text-decoration: none;
+    color: #2500fa;
+}
+
+.start-now {
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+    width: 110px;
+}
+
+.start-now:hover {
+    color: #2500fa;
+}
+
+.start-now::after {
+    content: '...';
+    display: none;
+    color: #2500fa;
+}
+
+.start-now:hover::after {
+    display: inline;
+}
+
+.advantage.even {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.advantage-description.even {
+    padding-right: 0;
+    padding-left: 138px;
+}
