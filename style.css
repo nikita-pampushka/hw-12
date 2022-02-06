@@ -249,7 +249,170 @@ svg {
     flex-direction: row-reverse;
 }
 
+.advantage-title.even {
+    width: 520px;
+}
+
 .advantage-description.even {
     padding-right: 0;
     padding-left: 138px;
+}
+
+.apps {
+    background-color: #FFF8E4;
+    padding: 120px 0 147px 0;
+}
+
+.apps-title {
+    width: 890px;
+    margin-bottom: 79px;
+}
+
+.apps-cards {
+    height: 672px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    
+}
+
+.apps-card {
+    text-align: center;
+    flex-basis: 330px;
+    padding: 21px 0 3px 0;
+}
+
+.apps-card-image {
+    display: block;
+    margin: 0 auto 26px auto;
+}
+
+.apps-card-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.apps-card-text {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.teams {
+    background-color: #fff;
+    padding: 154px 0 187px 0;
+}
+
+.teams-title {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.teams-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teams-card {
+    width: 408px;
+    padding-top: 300px;
+    position: relative;
+}
+
+.teams-card-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 34px;
+}
+
+.teams-card-text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.managers-image {
+    position: absolute;
+    top: 50px;
+}
+
+.developers-image {
+    position: absolute;
+    top: 67px;
+}
+
+.translators-image {
+    position: absolute;
+    top: 59px;
+}
+
+.chief {
+    background-color: #C9E8F2;
+    padding: 53px 0 105px 0;
+}
+
+.chief-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chief-text {
+    width: 895px;
+    padding-top: 10px;
+}
+
+.chief-quote {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 23px;
+}
+
+.chief-rang {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 7px;
+}
+
+.revolut-link {
+    width: 112px;
+}
+
+.rating {
+    background-color: #DABC98;
+    padding: 82px 0;
+}
+
+.rating-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating-title {
+    padding: 34px 124px 34px 0;
+    width: 586px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    border-right: 1px solid #000000;
+}
+
+.software-logo {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.software-stars {
+    display: block;
+    margin-bottom: 14px;
+}
+
+.software-caption {
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: uppercase;
 }
