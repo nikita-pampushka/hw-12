@@ -19,7 +19,7 @@ body {
 }
 
 .header-box {
-    height: 95px;
+    padding: 25px 0;
     display: flex;
     align-items: center;
 }
@@ -35,13 +35,11 @@ body {
 .header-logo {
     width: 130px;
     height: 28px;
-}
-
-.header-logo {
     transition-duration: 1s;
 }
 
-.logo:hover .header-logo {
+.logo:hover .header-logo,
+.logo:hover .footer-logo {
     transform: scale(1.2);
     stroke: #2500fa;
     stroke-width: 0.5px;
@@ -323,8 +321,18 @@ body {
 
 .teams-card {
     width: 408px;
-    padding-top: 300px;
-    position: relative;
+}
+
+.teams-card.managers {
+    padding-top: 50px;
+}
+
+.teams-card.developers {
+    padding-top: 67px;
+}
+
+.teams-card.translators {
+    padding-top: 59px;
 }
 
 .teams-card-title {
@@ -341,18 +349,15 @@ body {
 }
 
 .managers-image {
-    position: absolute;
-    top: 50px;
+    margin-bottom: 49px;
 }
 
 .developers-image {
-    position: absolute;
-    top: 67px;
+    margin-bottom: 67px;
 }
 
 .translators-image {
-    position: absolute;
-    top: 59px;
+    margin-bottom: 58px;
 }
 
 .chief {
@@ -565,7 +570,7 @@ body {
 }
 
 .footer-bottom {
-    height: 125px;
+    padding: 48px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -587,14 +592,5 @@ body {
     width: 90px;
     height: 21px;
     margin-right: 14px;
-}
-
-.footer-logo {
     transition-duration: 1s;
-}
-
-.logo:hover .footer-logo{
-    transform: scale(1.2);
-    stroke: #2500fa;
-    stroke-width: 0.5px;
 }
